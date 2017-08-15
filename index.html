@@ -1,0 +1,299 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FMF</title>
+    <link href="https://fonts.googleapis.com/css?family=Anton|Bungee|Bungee+Shade|Gloria+Hallelujah|Ubuntu|Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="icons/foundation-icons.css">
+    <link rel="stylesheet" href="css/foundation-flex.css">
+    <link rel="stylesheet" href="css/table-pricing.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+      <!-- menu off canvas -->
+      <div class="off-canvas-wrapper">
+        <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+          <div id="offCanvas" class="off-canvas position-left" data-off-canvas>
+            <nav data-magellan>
+              <ul class="vertical menu" data-drilldown>
+                  <li><a href="#tickets-container">Tickets</a></li>
+                  <li><a href="#lineup-container">Line Up</a>
+                  <ul class="vertical menu">
+                    <li><a data-toggle-dia="panelViernes" href="#lineup-container">Viernes</a></li>
+                    <li><a data-toggle-dia="panelSabado" href="#lineup-container">Sábado</a></li>
+                    <li><a data-toggle-dia="panelDomingo" href="#lineup-container">Domingo</a></li>
+                  </ul>
+                  </li>
+                  <li><a href="#info-container">Información</a></li>
+                  <li><a href="#suscribete-container">Suscríbete</a></li>
+                  <li><a href="shop/index.html">Merch</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="off-canvas-content" data-off-canvas-content>
+                 <!-- social media -->
+                  <section id="social-container">
+                    <div class="row align-center text-center">
+                      <div class="column small-1">
+                        <a href="#">
+                          <i class="fi-social-facebook"></i>
+                        </a>  
+                      </div>
+                      <div class="column small-1">
+                        <a href="#">
+                          <h5>ShSh</h5>
+                        </a>
+                      </div>
+                      <div class="column small-1">
+                        <a href="#">
+                          <i class="fi-social-instagram"></i>
+                        </a>
+                      </div>
+                      <div class="column small-1">
+                        <a href="#">
+                          <i class="fi-social-twitter"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </section>
+                   <!-- fin social media  -->
+
+                   <!-- Logo -->
+                   <section id="logo-container">
+                      <div class="callout text-center">
+                        <h1>Friends Music Fest</h1> 
+                        <p>Diciembre 24, 25 y 31 2016 (pa q no venga nadie)· Anfiteatro, Tandil</p>
+                      </div>
+                   </section>
+                   <!-- Fin logo -->
+
+                   <!-- Menu -->
+                  <section id="scrollSticky" data-sticky-container>
+                    <div id="sticky" class="data-sticky" data-sticky data-optinos="marginTop:0;" style="width:100%" data-margin-top="0" data-sticky-on="small" data-top-anchor="scrollSticky">
+                      <nav id="menu-container" data-magellan>
+                        <ul class="menu align-spaced show-for-small-only ">
+                          <li><a href="#" data-toggle="offCanvas">Menu</a></li>
+                        </ul>
+                        <ul class="menu dropdown align-spaced show-for-medium" data-dropdown-menu>
+                          <li><a href="#tickets-container">Tickets</a></li>
+                          <li><a href="#lineup-container">Line Up</a>
+                            <ul id="submenu-container" class="menu">
+                              <li><a data-toggle-dia="panelViernes" href="#lineup-container">Viernes</a></li>
+                              <li><a data-toggle-dia="panelSabado" href="#lineup-container">Sábado</a></li>
+                              <li><a data-toggle-dia="panelDomingo" href="#lineup-container">Domingo</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#info-container">Información</a></li>
+                          <li><a href="#suscribete-container">Suscríbete</a></li>
+                          <li><a href="shop/index.html">Merch</a></li>
+                        </ul>
+                      </nav>
+                    </div>
+                  </section>
+                   <!-- Fin menu -->
+                   <!-- Ticket  -->
+                    <section id="tickets-action">
+                      <div class="text-center">
+                       <video autoplay="autoplay" loop="loop" class="video-container">
+                          <source  src="assets/video.mp4"type="video/mp4">
+                      </video>
+                        <div class="dots"></div>
+                        <!-- <button class="large hollow button">COMPRAR AHORA !</button> -->
+                      </div>
+                    </section>
+                   <!-- Fin ticket -->
+
+                    <!-- Line up -->
+                    <section id="lineup-container" data-magellan-target="lineup-container">
+                      <h3 class="text-center">Lineup</h3>
+                      <ul class="tabs text-center" data-tabs id="lineup-tabs">
+                        <li class="tabs-title is-active">
+                          <a href="#panelViernes">Viernes</a>
+                        </li>
+                        <li class="tabs-title">
+                          <a href="#panelSabado">Sábado</a>
+                        </li>
+                        <li class="tabs-title">
+                          <a href="#panelDomingo">Domingo</a>
+                        </li>
+                      </ul>
+                      <div class="tabs-content text-center" data-tabs-content="lineup-tabs">
+                        <div class="tabs-panel is-active" id="panelViernes">
+                          Viernes · Arranca Faber rompiendo los oidos y la Marta Rock la entona al final
+                          <div class="row">
+
+                            <div class="small-12 medium-6 column">
+                              <div class="orbit-container">
+                                <div class="orbit-slide">
+                                  <img src="assets/faber.png" alt="" class="orbit-image" alt="Mapa de Bits">
+                                  <figcaption class="orbit-caption">Faber Punk Folk - New single Viejo Udy Perdido
+                                    <audio controls class="audiox">
+                                    <source src="assets/viejoudy.ogg" type="audio/ogg">
+                                          Your browser does not support the audio element.
+                                  </audio>
+                                  </figcaption>
+                                </div>
+                              </div>
+                              
+                            </div>
+
+                            <div class="small-12 medium-6 column">
+                              <div class="orbit-container">
+                                <div class="orbit-slide">
+                                  <img src="assets/marta.jpg" alt="" class="orbit-image" alt="Marcos de Bits">
+                                  <figcaption class="orbit-caption">Marcos de Bits</figcaption>
+                                </div>
+                              </div>
+                            </div>
+                            
+                        </div>
+                        </div>
+                        <div class="tabs-panel" id="panelSabado">
+
+                          Sábado · Arranca Udy il cantante y Cierra Turco musiquita
+                          <div class="row">
+                            <div class="small-12 medium-6 column">
+                                <div class="orbit-container">
+                                  <div class="orbit-slide">
+                                    <img src="assets/udy.png" alt="" class="orbit-image" alt="Mapa de Bits">
+                                    <figcaption class="orbit-caption">Udy dil Amore</figcaption>
+
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="small-12 medium-6 column">
+                                <div class="orbit-container">
+                                  <div class="orbit-slide">
+                                    <img src="assets/turco.png" alt="" class="orbit-image" alt="Turco Misiquita">
+                                    <figcaption class="orbit-caption">Turco Musiquita</figcaption>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="tabs-panel" id="panelDomingo">
+                          Domingo · Arranca Ber revolucion y Manuel pop cierra
+                          <div class="row">
+                            <div class="small-12 medium-6 column">
+                                <div class="orbit-container">
+                                  <div class="orbit-slide">
+                                    <img src="assets/ber.png" alt="" class="orbit-image" alt="Mapa de Bits">
+                                    <figcaption class="orbit-caption">Bernitos Movidito</figcaption>
+
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="small-12 medium-6 column">
+                                <div class="orbit-container">
+                                  <div class="orbit-slide">
+                                    <img src="assets/manu.png" alt="" class="orbit-image" alt="Manu para las nenas">
+                                    <figcaption class="orbit-caption">Manu para las nenas - Electro cumbia al palo !</figcaption>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                    </section>
+                    <!-- Fin line up -->
+
+                    <!-- Compra de boletos -->
+
+                    <section id="tickets-container" class="dotss" data-magellan-target="tickets-container" >
+                    <!-- <img src="assets/2.jpeg" alt=""> -->
+                      <h3 class="text-center">Comprar Tickets</h3>
+                      <div class="row" data-equalizer data-equalizer-on="small">
+                        <div class="column small-10 small-offset-1 medium-6 medium-offset-3">
+                          <ul class="pricing-table no-bullet text-center">
+                            <li class="title">Platino</li>
+                            <li class="price">$250</li>
+                            <li class="description">Abono 3 días · Viernes, Sábado y Domingo.</li>
+                            <li>Acceso a los 3 días de recitales · Viernes 2, Sábado 3 y Domingo 4</li>
+                            <li>Así como a la zona de acampada.</li>
+                            <li>Podrás acceder al Área VIP</li>
+                            <li><a class="button" href="#">Buy Now</a></li>
+                          </ul>
+                        </div>
+                        <div class="column small-6 medium-4 medium-offset-2">
+                          <ul class="pricing-table no-bullet text-center">
+                            <li class="title">Gold</li>
+                            <li class="price">$90</li>
+                            <li class="description">Abono 3 días · Viernes, Sábado y Domingo.</li>
+                            <li>Acceso a los 3 días de recitales · Viernes 2, Sábado 3 y Domingo 4</li>
+                            <li data-equalizer-watch>Así como a la zona de acampada.</li>
+                            <li>Podrás acceder al Área VIP</li>
+                            <li><a class="button" href="#">Buy Now</a></li>
+                          </ul>
+                        </div>
+                        <div class="column small-6 medium-4">
+                          <ul class="pricing-table no-bullet text-center">
+                            <li class="title">Silver</li>
+                            <li class="price">$45</li>
+                            <li class="description">Abono 3 días · Viernes, Sábado y Domingo.</li>
+                            <li>Acceso a los 3 días de recitales · Viernes 2, Sábado 3 y Domingo 4</li>
+                            <li data-equalizer-watch>-</li>
+                            <li>-</li>
+                            <li><a class="button" href="#">Buy Now</a></li>
+                          </ul>
+                        </div>
+                      </div>
+
+                    </section->
+                    <!-- fin Compra de boletos -->
+
+                    <!-- Suscribete -->
+                    <section id="suscribete-container" data-magellan-target="suscribete-container">
+                      <h3 class="text-center">Suscríbete</h3>
+                      <h4 class="text-center"><small>Y recibe las ultimas novedades del Fest</small></h4>
+                      <form action="https://formspree.io/rivasmig@gmail.com" method="POST" novalidate data-abide>
+                      <div data-abide-error  class="row colums small-12 medium-6 text-center error-container" style="display: none;">
+                        <p><i class="fi-alert"></i> El email no es válido, che!</p>
+                      </div>
+                        <div class="row colums small-12 medium-6">
+                          <div class="input-group">
+                            <span class="input-group-label"><i class="fi-mail"></i>
+                            </span>
+                            <input type="email" name="email" class="input-group-field" placeholder="tu@correo.com" required>
+                            <div class="input-group-button">
+                              <input type="submit" class="button" value="Suscribirse">
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </section>
+
+                    <!-- Fin suscribete  -->
+
+
+                    <!-- Info  -->
+                    <section id="info-container" data-magellan-target="info-container">
+                      <h3 class="text-center">Información · Festival Map</h3>
+                      <div class="info-map" data-interchange="[assets/map-small.html, small], [assets/map.html, medium]"></div>
+                    </section>
+                    <!-- Fin info -->
+
+                    <!-- Git -->
+                    <footer id="footer-container" class="text-center">
+                    <div class="row summary">
+                        <p class="small-9">This Site was built based on <a href="http://foundation.zurb.com/" target="blank">Foundation zurb</a></p>
+                        <a class="small-3" href="#"><i class="fi-social-github"></i></a>
+
+                    </div>
+                    </footer>
+                    
+                    <!-- Fin git -->
+          </div>
+        </div>
+      </div>
+     <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

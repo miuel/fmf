@@ -1,0 +1,243 @@
+body {
+  background-color: #333333;
+  /*font-family: 'Anton', sans-serif;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Bungee', cursive;*/
+}
+h4, h6, button, a {
+  font-family: 'Ubuntu', sans-serif;
+}
+p {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+h1 {
+  font-family: 'Bungee Shade', cursive;
+}
+h2, h3 {
+  font-family: 'Bungee', cursive;
+}
+
+#social-container {
+  background-color: #333333;
+  padding: 5px 0;
+  font-size: 2em;
+}
+#social-container i:hover {
+  color: #EE265D;
+}
+#social-container h5 {
+  font-family: 'Lobster', bold;
+  font-size: 25px;
+  padding-top: 10px;
+}
+#social-container a h5:hover {
+  color: #EE265D;
+}
+#logo-container .callout {
+  margin-bottom: 0px;
+}
+#menu-container {
+  background-color: #1DA1F2;
+}
+#menu-container li a {
+  color: white;
+  font-family: 'Bungee', cursive;
+}
+#menu-container li a:hover,
+#submenu-container li a:hover {
+  color: #333333;
+}
+#submenu-container li a {
+  background-color: #1DA1F2;
+  color: white;
+}
+#submenu-container {
+  border: 0px;
+}
+#tickets-action {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #333333;
+  color: black;
+  border: none;
+  position: relative;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.video-container {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: rgb(0, 0, 0)
+}
+/*.orbit-image {
+  height: 100%;
+}*/
+.dots {
+  background: url(../assets/gridtile.png) repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute; 
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+#tickets-action  button {
+  color: white;
+  border: 1px solid white;
+}
+#tickets-action .button {
+  display: inline-block;
+  position: relative;
+  top: -190px;
+  left: 0px;
+  background-color: rgba(10, 10, 10, 0.5);
+}
+#lineup-container {
+  background-color: #333333;
+  color: white;
+  margin-top: 0px;
+}
+#lineup-container .tabs,
+#lineup-container .tabs-title,
+#lineup-container .tabs-panel {
+  background-color: #333333;
+  border: 0px;
+}
+.menu > li > a:hover {
+   color: #EE265D; 
+}
+.tabs-title {
+  display: inline-block;
+  float: none;
+}
+.tabs-title a {
+  font-family: 'Bungee', cursive;
+  text-transform: uppercase;
+}
+.tabs-title a:hover {
+  color: #EE265D;
+}
+.tabs-content {
+  border: 0px;
+}
+#lineup-container {
+  padding: 1em 0px;
+}
+#lineup-container .tabs .tabs-title.is-active a {
+  background-color: #EE265D;
+  border: 0px;
+  color: white;
+} 
+.tabs-panel {
+  font-family: 'Gloria Hallelujah', cursive;
+  text-transform: uppercase;
+}
+#tickets-container {
+  /*background-color: #dedede;*/
+  background: url(../assets/2.jpeg) fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-position: center;*/
+  width: 100%;
+  padding: 1em 0 0 0;
+}
+#tickets-container h3 {
+  color: white;
+}
+#tickets-container  li {
+  font-family: 'Ubuntu', sans-serif;  
+  color: white;
+}
+.orbit-container {
+  margin: 10px 0;
+}
+/*.dotss {
+  background: url(../assets/gridtile.png) repeat;
+  width: 100%;
+  height: 100%;
+  /*position: absolute; 
+  top: 0;
+  left: 0;
+  z-index: 1;
+}*/
+.pricing-table {
+  border: 1px solid black;
+}
+.pricing-table li, 
+.pricing-table li.title,
+.pricing-table li.description {
+  font-size: 20px;
+}
+.pricing-table a {
+  background-color: #333333;
+}
+.pricing-table a:hover {
+  background-color: white;
+  color: #EE265D;
+}
+#info-container {
+  background-color: #333333;
+  color: white;
+  padding: 1em 0;
+}
+#info-container .info-map iframe {
+  width: 100%;
+}
+#info-container h3 {
+  color: white;
+}
+#suscribete-container {
+  background-color: #EE265D;
+  color: white;
+  padding: 1em 0;
+}
+#suscribete-container h3 {
+  color: white;
+}
+
+#suscribete-container h4 small {
+  color: #ffcddd;
+}
+#suscribete-container input[type="submit"] {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #dedede;
+  color: black;
+}
+.is-invalid-input:not(:focus) {
+  background-color: yellow;
+  border-color: yellow;
+}
+.data-sticky {
+  z-index: 100;
+}
+#offCanvas {
+  background-color: #333333;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+footer {
+  background-color: #333333;
+  padding: 1em 0;
+}
+footer a {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: white;
+}
+footer a:hover {
+  text-decoration: none;
+  color: #F3D82F;
+}
+
+footer p {
+  color: white;
+}
+footer i {
+  font-size: 40px;
+}
+footer i:hover {
+  color: #F3D82F;
+}
